@@ -1,0 +1,45 @@
+.container-mobile {
+  width: 414px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: 'Inter UI', sans-serif;
+}
+#title {
+  color: red;
+}
+  .container-box{
+    display: flex;
+    flex-flow: row;
+    height: 175px;
+    margin-bottom: 10px
+
+  }
+  .box-text {
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 26px;
+    font-size: 15px
+  }  
+  .case-texte {
+  text-align: justify;
+  justify-content: center;
+  flex-flow: column;
+  padding-left: 26px
+
+  }
+  .naviguation{
+    height: 298px; 
+    bottom: -4px;
+    position: absolute;
+}
+  
